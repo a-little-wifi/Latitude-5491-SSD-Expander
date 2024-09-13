@@ -27,3 +27,14 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+
+# lock files 
+*.kicad_pcb.lck
+*.kicad_sch.lck
+
+# weird log file
+out.log
+
+# round tracks plugin stuff lol
+*.round-tracks-config
