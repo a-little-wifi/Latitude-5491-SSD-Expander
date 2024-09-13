@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Latitude 5491 SSD Expander")
+		(company "WifiCable")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -3232,7 +3236,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d7078ad3-f24f-42eb-9162-cf35a4081459")
 			(effects
@@ -3387,7 +3391,7 @@
 			(uuid "bfc4be0a-0226-410d-a085-5f6e49207e9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e51b4211-c38a-4235-9e00-211f6cbf83f9")
 			(effects
@@ -4744,7 +4748,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "191ba0ae-dfac-414f-93bf-5859a23613e6")
 			(effects
@@ -4899,7 +4903,7 @@
 			(uuid "50130016-8a70-4e00-948b-e7437e105f4f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b9269902-998a-43c2-9922-468de0fd9c57")
 			(effects
@@ -6548,7 +6552,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6ba66dfc-036c-4adb-8445-7234524458ff")
 			(effects
@@ -6703,7 +6707,7 @@
 			(uuid "35bbf60b-f3f9-420b-afd5-0e5b52f7bda9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "af8c9cc6-0d22-4480-bd59-bd1adb4aa560")
 			(effects
@@ -7857,7 +7861,7 @@
 		(start 101.000001 44.000001)
 		(end 113 44.000001)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7867,7 +7871,7 @@
 		(start 117.999999 66)
 		(end 118.000001 89)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7878,7 +7882,7 @@
 		(mid 138.707107 44.292893)
 		(end 139 45)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7889,7 +7893,7 @@
 		(mid 138.707106 54.707106)
 		(end 138 54.999999)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7899,7 +7903,7 @@
 		(start 113.000001 64)
 		(end 113.000001 56)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7910,7 +7914,7 @@
 		(mid 113.292894 64.707106)
 		(end 113.000001 64)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7921,7 +7925,7 @@
 		(mid 117.707106 65.292894)
 		(end 117.999999 66)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7932,7 +7936,7 @@
 		(mid 118.292894 89.707106)
 		(end 118.000001 89)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7942,7 +7946,7 @@
 		(start 138 54.999999)
 		(end 114 55.000001)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7952,7 +7956,7 @@
 		(start 114 64.999999)
 		(end 117 65.000001)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7962,7 +7966,7 @@
 		(start 78.999999 44.000001)
 		(end 79.000001 155)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7972,7 +7976,7 @@
 		(start 139 45)
 		(end 138.999999 54)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7983,7 +7987,7 @@
 		(mid 79.292894 155.707106)
 		(end 79.000001 155)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -7993,7 +7997,7 @@
 		(start 80 155.999999)
 		(end 138 155.999999)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8003,7 +8007,7 @@
 		(start 119 89.999999)
 		(end 138 90.000001)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8014,7 +8018,7 @@
 		(mid 113.292894 55.292894)
 		(end 114 55.000001)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8024,7 +8028,7 @@
 		(start 113 44)
 		(end 138 44)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8035,7 +8039,7 @@
 		(mid 138.707106 90.292894)
 		(end 138.999999 91)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8045,7 +8049,7 @@
 		(start 138.999999 91)
 		(end 138.999999 155)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -8056,7 +8060,7 @@
 		(mid 138.707106 155.707106)
 		(end 138 155.999999)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -14433,9 +14437,9 @@
 				(xy 92.04666 42.613582) (xy 92.046999 42.621336) (xy 92.046999 44.404142) (xy 92.067137 44.479298)
 				(xy 92.082195 44.505379) (xy 92.082196 44.50538) (xy 92.106039 44.546679) (xy 93.8983 46.338941)
 				(xy 93.953318 46.393958) (xy 93.953319 46.393959) (xy 94.020701 46.432862) (xy 94.095857 46.453)
-				(xy 94.173664 46.453) (xy 113.486886 46.453) (xy 113.544094 46.473822) (xy 113.574534 46.526545)
-				(xy 113.567843 46.578972) (xy 113.544875 46.629264) (xy 113.514866 46.694973) (xy 113.472163 46.73836)
-				(xy 113.433911 46.747) (xy 93.424506 46.747) (xy 93.367298 46.726178) (xy 93.361573 46.720933) (xy 91.479066 44.838426)
+				(xy 113.486886 46.453) (xy 113.544094 46.473822) (xy 113.574534 46.526545) (xy 113.567843 46.578972)
+				(xy 113.544875 46.629264) (xy 113.514866 46.694973) (xy 113.472163 46.73836) (xy 113.433911 46.747)
+				(xy 93.424506 46.747) (xy 93.367298 46.726178) (xy 93.361573 46.720933) (xy 91.479066 44.838426)
 				(xy 91.453338 44.78325) (xy 91.452999 44.775493) (xy 91.452999 42.621339) (xy 91.473821 42.564131)
 				(xy 91.479055 42.558417) (xy 91.49046 42.547013) (xy 91.530022 42.47849) (xy 91.5505 42.402064)
 				(xy 91.5505 42.32294) (xy 91.5505 42.322939) (xy 91.5505 42.261365) (xy 91.571322 42.204158) (xy 91.575001 42.200142)
