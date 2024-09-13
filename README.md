@@ -1,2 +1,6 @@
-# Latitude-5491-SSD-Expander
- PCIe bifurcating dual SSD adapter for the Dell Latitude 5491
+# Latitude 5491 SSD Expander
+This project is a PCB meant to fit in the large empty space around the Dell Latitude 5491's M.2 SSD slot. Together with a firmware modification, it should allow me to fit 2 2280 NVMe SSDs with 2 PCIe lanes each.
+
+This is also an experiment to figure out PCIe bifurcation in general. In this case I'm using a Renesas 9ZXL0651AKLF clock buffer with 6 outputs, but I'm only using the first 2 for this board.
+
+### Todo: add pics of the physical fit
