@@ -9629,6 +9629,18 @@
 			)
 		)
 	)
+	(gr_text "TODO:\n[ ] Properly look into the mounting method to the chassis\n[ ] Cut off unused PCB area near the end\n[ ] Come up with a better name/logo"
+		(at 146.4 52 0)
+		(layer "User.1")
+		(uuid "43039273-9426-42fc-ad8b-cd04cc8ac47b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 92.675001 56.899999)
 		(end 95.699999 56.899999)
