@@ -5127,6 +5127,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5731,6 +5902,12 @@
 		(uuid "7e55b34e-a7cd-441e-9d57-79e5686edd37")
 	)
 	(junction
+		(at 149.86 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82d53480-0a4e-4145-9195-a2b6e8513f8c")
+	)
+	(junction
 		(at 170.18 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5747,6 +5924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32d52b5-36a8-41b7-874c-084ca2732620")
+	)
+	(junction
+		(at 267.97 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a918e289-b2fc-4fbf-982e-9221959084a3")
 	)
 	(junction
 		(at 77.47 165.1)
@@ -6234,16 +6417,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 59.69) (xy 149.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20633957-96ba-490d-bb24-80da3b8de05b")
-	)
-	(wire
-		(pts
 			(xy 185.42 189.23) (xy 185.42 190.5)
 		)
 		(stroke
@@ -6301,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "25afaf74-e037-476f-800c-f65690c8770b")
+	)
+	(wire
+		(pts
+			(xy 316.23 33.02) (xy 328.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a45c695-c758-4a02-8bcd-17aa15062820")
 	)
 	(wire
 		(pts
@@ -6381,6 +6564,26 @@
 			(type default)
 		)
 		(uuid "34465d99-142b-49da-8cd1-29ae101cc003")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357b1048-20e9-4aea-ba76-b44cfafbb3c1")
+	)
+	(wire
+		(pts
+			(xy 210.82 33.02) (xy 210.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e8612c-191f-41a4-9cb9-0cca76a2a841")
 	)
 	(wire
 		(pts
@@ -6904,6 +7107,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 33.02) (xy 328.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fe8ea8-2d93-4fe4-a967-3a5999d5de6a")
+	)
+	(wire
+		(pts
 			(xy 20.32 205.74) (xy 26.67 205.74)
 		)
 		(stroke
@@ -7054,6 +7267,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 33.02) (xy 306.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be30dc8-c5ec-4b9b-a09a-7800d4582f07")
+	)
+	(wire
+		(pts
 			(xy 72.39 91.44) (xy 72.39 86.36)
 		)
 		(stroke
@@ -7171,6 +7394,16 @@
 			(type default)
 		)
 		(uuid "a43b0685-42ee-4db7-9a03-730c97af82a1")
+	)
+	(wire
+		(pts
+			(xy 149.86 30.48) (xy 149.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e1a227-616a-402d-8b34-fa96cb1a6823")
 	)
 	(wire
 		(pts
@@ -7404,6 +7637,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 33.02) (xy 210.82 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd63f1b3-3ad4-4714-b5ff-c7204a31496d")
+	)
+	(wire
+		(pts
 			(xy 96.52 137.16) (xy 76.2 137.16)
 		)
 		(stroke
@@ -7454,7 +7697,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 59.69) (xy 267.97 62.23)
+			(xy 267.97 33.02) (xy 267.97 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7561,6 +7804,26 @@
 			(type default)
 		)
 		(uuid "ced6d171-dc74-4254-8db9-30c7ed4471cc")
+	)
+	(wire
+		(pts
+			(xy 267.97 30.48) (xy 267.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0269f03-97da-485e-aa9c-5a65519e6c73")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e13fbd-36d0-4b9a-b4cd-f76e564316e8")
 	)
 	(wire
 		(pts
@@ -9481,7 +9744,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 267.97 59.69 0)
+		(at 267.97 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9489,7 +9752,7 @@
 		(dnp no)
 		(uuid "193f61ea-9e2f-426c-b328-eaf35791f566")
 		(property "Reference" "#PWR04"
-			(at 267.97 63.5 0)
+			(at 267.97 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9761,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 267.97 55.88 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,7 +9769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 59.69 0)
+			(at 267.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +9778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 59.69 0)
+			(at 267.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 267.97 59.69 0)
+			(at 267.97 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11822,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 149.86 59.69 0)
+		(at 149.86 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11567,7 +11830,7 @@
 		(dnp no)
 		(uuid "80110f12-e8a0-4a4c-9edb-607a6a7fe535")
 		(property "Reference" "#PWR05"
-			(at 149.86 63.5 0)
+			(at 149.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,7 +11839,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 149.86 55.88 0)
+			(at 149.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 59.69 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11593,7 +11856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 59.69 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 59.69 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,6 +11945,74 @@
 			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 195.58 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "824ff71b-abeb-44ce-abf3-c018b1a7794d")
+		(property "Reference" "D2"
+			(at 195.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 195.58 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b57c241a-3d48-4f64-8554-ce58e937f0d4")
+		)
+		(pin "2"
+			(uuid "07f95bae-59d3-461c-8be1-02970056870b")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12526,6 +12857,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 313.69 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca6885c0-718d-49db-a6f1-e680433cee1b")
+		(property "Reference" "D1"
+			(at 313.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 313.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 313.69 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce4ba4e-b552-45f4-917c-31f594ae71c0")
+		)
+		(pin "2"
+			(uuid "e074b9c9-fcc3-48fb-b8aa-72b36efb30f0")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 153.67 0)
 		(mirror y)
@@ -12724,6 +13123,74 @@
 			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 190.5 33.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddef3bb4-a37c-40a7-a4a0-527f9e8dfe86")
+		(property "Reference" "R8"
+			(at 190.5 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 190.5 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f5ced1-91af-4716-b13e-6904e6c29a3e")
+		)
+		(pin "2"
+			(uuid "590a7913-daec-45fc-a2a8-0bb7e7c12f11")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13188,6 +13655,74 @@
 			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 308.61 33.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eae53abb-5f40-44b5-86cd-8b07884f9568")
+		(property "Reference" "R7"
+			(at 308.61 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 308.61 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 308.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fe5cafb-2af9-4062-97dd-cd7c99028962")
+		)
+		(pin "2"
+			(uuid "8a7c6b80-1074-4eca-b3f2-7df656ff91ab")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "R7")
 					(unit 1)
 				)
 			)
