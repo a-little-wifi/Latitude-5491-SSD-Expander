@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "255ac4ad-4409-4f3b-8003-6b0a27aed20d")
 	(paper "A3")
+	(title_block
+		(title "Latitude 5491 SSD Expander")
+		(company "WifiCable")
+	)
 	(lib_symbols
 		(symbol "A-my-stuff:clockbuffer_9ZXL0651AKLF"
 			(exclude_from_sim no)
