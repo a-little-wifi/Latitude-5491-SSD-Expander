@@ -10,6 +10,7 @@
 	(title_block
 		(title "Latitude 5491 SSD Expander")
 		(company "WifiCable")
+		(comment 4 "AISLER Project ID: EJTNHODV")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -11287,6 +11288,116 @@
 		)
 		(layer "User.1")
 		(uuid "fcfcd6c6-6d13-4fbb-ad70-bb487b9682e3")
+	)
+	(gr_line
+		(start 79 111.5)
+		(end 74 111.5)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "059359a6-c394-47a9-816c-b155831ef94b")
+	)
+	(gr_line
+		(start 144 121.5)
+		(end 139 121.5)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "57d25e63-ec3d-4b81-8ba8-2656db3697c8")
+	)
+	(gr_line
+		(start 94 161)
+		(end 94 156)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "59138dbf-d2cc-4ddb-aa0a-3073b3f4a790")
+	)
+	(gr_line
+		(start 79 49.5)
+		(end 74 49.5)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "6708af07-4f8e-4cef-9130-f6592e3d87f4")
+	)
+	(gr_line
+		(start 144 149)
+		(end 139 149)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "68eb534a-a946-463b-bd2f-a52178b61c6f")
+	)
+	(gr_line
+		(start 79 149)
+		(end 74 149)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "812a62ec-8940-416d-9d3f-2229f106e55c")
+	)
+	(gr_line
+		(start 144 49.5)
+		(end 139 49.5)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "a8bf94ad-7fa7-4fd1-a55f-797b4250481a")
+	)
+	(gr_line
+		(start 123 161)
+		(end 123 156)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "b2a78df6-60c1-4761-b9d2-7be285aef22a")
+	)
+	(gr_line
+		(start 79 79)
+		(end 74 79)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "bd187b61-01eb-4f5b-86ce-00714310dd97")
+	)
+	(gr_line
+		(start 144 96)
+		(end 139 96)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "dab05e41-fd42-488c-8178-ab3b534aff54")
+	)
+	(gr_line
+		(start 108.5 44)
+		(end 108.5 39)
+		(stroke
+			(width 0.05588)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "ebdbb7b7-449a-424c-bfe1-ea27498c8ac5")
 	)
 	(gr_text "5491 edition"
 		(at 92.2 79.699999 90)
