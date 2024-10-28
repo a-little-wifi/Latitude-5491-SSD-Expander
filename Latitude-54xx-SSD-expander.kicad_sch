@@ -5788,6 +5788,12 @@
 		(uuid "1c3daf19-e877-46b0-8175-c7c41ac2ed5e")
 	)
 	(junction
+		(at 27.94 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d2ae4c0-f22e-420f-9e33-f4d0c2346bf7")
+	)
+	(junction
 		(at 200.66 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5834,6 +5840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4217be1a-a1bc-4f71-acd7-6d341fc16ebb")
+	)
+	(junction
+		(at 40.64 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44d94c98-7496-4e19-9cfa-563e3a263c40")
 	)
 	(junction
 		(at 193.04 196.85)
@@ -5974,6 +5986,12 @@
 		(uuid "c548bc42-4e37-4f1e-8213-e4a5c33e750b")
 	)
 	(junction
+		(at 36.83 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe49f9a-cbf4-472d-8aeb-977cd17a7203")
+	)
+	(junction
 		(at 162.56 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5996,6 +6014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faa9539c-4d9f-4b0e-b999-82006edb3b3c")
+	)
+	(junction
+		(at 36.83 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbea7a43-f713-4c1a-8ac3-fc9822443302")
 	)
 	(junction
 		(at 251.46 64.77)
@@ -6207,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 196.85) (xy 25.4 196.85)
+			(xy 52.07 196.85) (xy 36.83 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6357,6 +6381,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 195.58) (xy 36.83 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171301c1-0547-4dc9-ba4b-63a96c5178ea")
+	)
+	(wire
+		(pts
 			(xy 328.93 123.19) (xy 321.31 123.19)
 		)
 		(stroke
@@ -6414,6 +6448,16 @@
 			(type default)
 		)
 		(uuid "1ec9d70e-d639-4770-9131-2d553506c8f1")
+	)
+	(wire
+		(pts
+			(xy 27.94 187.96) (xy 27.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207edf76-2468-4d36-8044-6a4afdd0b44f")
 	)
 	(wire
 		(pts
@@ -6534,6 +6578,16 @@
 			(type default)
 		)
 		(uuid "2ef643df-9a31-4c14-b64f-e6728acb8fab")
+	)
+	(wire
+		(pts
+			(xy 36.83 196.85) (xy 25.4 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b2fca1-408e-48e5-bfdd-f521919eb419")
 	)
 	(wire
 		(pts
@@ -6927,6 +6981,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 190.5) (xy 40.64 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fe968f-da9c-4228-ae5a-0c167c05d1af")
+	)
+	(wire
+		(pts
 			(xy 369.57 62.23) (xy 367.03 62.23)
 		)
 		(stroke
@@ -7057,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 199.39) (xy 25.4 199.39)
+			(xy 52.07 199.39) (xy 40.64 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7247,6 +7311,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 189.23) (xy 36.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873e28d1-4330-4036-8073-0088da63a2ee")
+	)
+	(wire
+		(pts
 			(xy 134.62 177.8) (xy 134.62 162.56)
 		)
 		(stroke
@@ -7364,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "9db1a204-9b53-4a8c-940a-2c21b41f0b03")
+	)
+	(wire
+		(pts
+			(xy 40.64 199.39) (xy 25.4 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0da266d-5e1f-47e4-8225-161f5f1d5ca8")
 	)
 	(wire
 		(pts
@@ -7617,6 +7701,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 189.23) (xy 27.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb01dbfb-d7f3-48e1-81e7-ba6f519471d4")
+	)
+	(wire
+		(pts
 			(xy 133.35 63.5) (xy 133.35 60.96)
 		)
 		(stroke
@@ -7744,6 +7838,16 @@
 			(type default)
 		)
 		(uuid "c6344878-2616-49bd-8e8c-e1cf99e0ac66")
+	)
+	(wire
+		(pts
+			(xy 36.83 190.5) (xy 36.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bf1c35-f72c-4bda-a0a0-365a21a38a73")
 	)
 	(wire
 		(pts
@@ -7914,6 +8018,16 @@
 			(type default)
 		)
 		(uuid "e30b6604-eae8-422c-8872-cb6cdca18ffb")
+	)
+	(wire
+		(pts
+			(xy 40.64 195.58) (xy 40.64 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40c33a8-4b43-44fa-9386-fc4ff9ed6482")
 	)
 	(wire
 		(pts
@@ -8219,7 +8333,7 @@
 	)
 	(global_label "Buffer_SMBus_CLK"
 		(shape input)
-		(at 30.48 199.39 0)
+		(at 52.07 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8229,7 +8343,7 @@
 		)
 		(uuid "0a04fb37-72dc-436b-b3ea-046dcd812db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8217 199.39 0)
+			(at 72.4117 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8355,7 @@
 	)
 	(global_label "Buffer_SMBus_DAT"
 		(shape input)
-		(at 30.48 196.85 0)
+		(at 52.07 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8251,7 +8365,7 @@
 		)
 		(uuid "0ca85b8b-c696-4a0d-bc01-0873f986fcc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5798 196.85 0)
+			(at 72.1698 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,6 +10258,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 40.64 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2407b5b6-73e8-454b-816f-5a94ef2d207f")
+		(property "Reference" "R10"
+			(at 43.18 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 43.18 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 40.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79b6ae2e-1f21-4e6a-9356-a399b813efea")
+		)
+		(pin "2"
+			(uuid "7d9c7b81-d24e-478c-93c7-d45aff4eca1b")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 176.53 0)
 		(unit 1)
@@ -10814,6 +10997,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 36.83 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cc295b7-a1d7-40e1-87ab-a8d5952ef425")
+		(property "Reference" "R9"
+			(at 34.29 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 34.29 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1119b0f4-b87a-4c98-84f3-d5a7564ee917")
+		)
+		(pin "2"
+			(uuid "aa87b90e-46c0-4bee-a360-d9d1f100c920")
+		)
+		(instances
+			(project "Latitude-54xx-SSD-expander"
+				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 134.62 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -10943,7 +11196,7 @@
 			(uuid "06ffd2cc-c555-40b0-a936-90141ac0e335")
 		)
 		(instances
-			(project ""
+			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "C1")
 					(unit 1)
@@ -10953,7 +11206,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 27.94 189.23 0)
+		(at 27.94 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10961,7 +11214,7 @@
 		(dnp no)
 		(uuid "5459c012-109d-4a98-8e3a-57d8e4640cd4")
 		(property "Reference" "#PWR010"
-			(at 27.94 193.04 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +11223,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 27.94 185.42 0)
+			(at 27.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +11231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 189.23 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 189.23 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 189.23 0)
+			(at 27.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +12500,7 @@
 			(uuid "29798e59-abfe-4e6e-9e5e-c262393ac47d")
 		)
 		(instances
-			(project ""
+			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "U1")
 					(unit 1)
@@ -12986,7 +13239,7 @@
 			(uuid "d710b0c4-0973-41a2-9fb7-1bf6c53d30cf")
 		)
 		(instances
-			(project ""
+			(project "Latitude-54xx-SSD-expander"
 				(path "/255ac4ad-4409-4f3b-8003-6b0a27aed20d"
 					(reference "R1")
 					(unit 1)
