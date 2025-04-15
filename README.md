@@ -36,7 +36,7 @@ Should in theory also work on the H-class CPU version of the Latitude 5480, but 
 
 ## How to make it work:
 
-To get this working, you need to modify the Flex I/O configuration of your laptop by dumping the content of the BIOS chip, loading it into Intel's Flash Image Tool (mfit) (version 12.0.85.1919 for the Latitude 5491), navigating to the Flex I/O section and changing the PCIe Port Configuration for PCIe Controller 3 (Port 9-12) (this is the one connected to the M-key slot) from 1x4 to 2x2:
+To get this working, you need to modify the Flex I/O configuration of your laptop by dumping the content of the BIOS chip, loading it into Intel's Flash Image Tool (mfit) (version 12.0.85.1919 for the Latitude 5491), navigating to the Flex I/O section and changing the PCIe Port Configuration for PCIe Controller 3 (Port 9-12) (this is the one connected to the M-key slot on the 5491) from 1x4 to 2x2:
 
 > <img src='mfit.png' width=70%/>
 
