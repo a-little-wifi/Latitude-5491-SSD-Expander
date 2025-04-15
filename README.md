@@ -48,3 +48,5 @@ For your first boot you might need to clear the cmos to get it to run and also g
 
 ## I provide no warranty on any of this, I am not responsible if you mess up your machine  
 This is only an experiment to prove it's possible for end users to bifurcate and generally change the configuration of the PCH PCIe lanes in their Intel-based laptop
+
+For the next bifurcation adapter I'll probably use the Renesas 9DBL411BGLFT clock buffer instead, looks easier to solder and is readily available
