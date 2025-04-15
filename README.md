@@ -17,19 +17,19 @@ Should in theory also work on the H-class CPU version of the Latitude 5480, but 
 # Results:
 
 ## It works!
-> <img src='installed_in_laptop.jpg' width=40%/>
+> <img src='installed_in_laptop.jpg' width=50%/>
 
 > Bifurcation board with 2 SSDs installed in a Latitude 5491
 
-> <img src='bios_detected.jpg' width=40%/>
+> <img src='bios_detected.jpg' width=50%/>
 
 > Both SSDs showing up in the setup menu (the second one is showing in the entry usually meant for the WWAN slot lol)
 
-> <img src='ssds_detected.jpg' width=40%/>
+> <img src='ssds_detected.jpg' width=50%/>
 
 > Both SSDs detected in Gnome Disks (Ubuntu 16.04 live)
 
-> <img src='lspci_detected.jpg' width=40%/>
+> <img src='lspci_detected.jpg' width=50%/>
 
 > Both SSDs showing up in lspci (not shown: both running at PCIe x2 as expected)
 
@@ -38,7 +38,7 @@ Should in theory also work on the H-class CPU version of the Latitude 5480, but 
 
 To get this working, you need to modify the Flex I/O configuration of your laptop by dumping the content of the BIOS chip, loading it into Intel's Flash Image Tool (mfit) (version 12.0.85.1919 for the Latitude 5491), navigating to the Flex I/O section and changing the PCIe Port Configuration for PCIe Controller 3 (Port 9-12) (this is the one connected to the M-key slot) from 1x4 to 2x2:
 
-> <img src='mfit.png' width=40%/>
+> <img src='mfit.png' width=70%/>
 
 > Changing the PCIe port from 1x4 to 2x2 in mfit
 
