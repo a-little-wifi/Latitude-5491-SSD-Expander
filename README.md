@@ -5,7 +5,9 @@ This is also an experiment to figure out PCIe bifurcation in general. In this ca
 
 Should in theory also work on the H-class CPU version of the Latitude 5480, but not the U-class 5480 and 5490, those only have 2 PCIe lanes for the SSD slot in the first place.
 
-Impedance is tuned for Aisler's 4-layer 0.8mm process (thanks [Aisler](https://aisler.net/) for sponsoring the fabrication of this board!)
+~~Impedance is tuned for Aisler's 4-layer 0.8mm process~~ (thanks [Aisler](https://aisler.net/) for sponsoring the fabrication of this board!)  
+Turns out the impedance and possibly other factors are not quite right, the current design has issues maintaining the PCIe link on the first slot, be aware if you plan to use this design.
+
 
 ### pics:
 
