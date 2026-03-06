@@ -10719,7 +10719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "A-my-stuff:mySolderJumper-1x0.5mm"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -12716,7 +12716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "A-my-stuff:mySolderJumper-1x0.5mm"
 			(at 93.98 26.67 0)
 			(effects
 				(font
