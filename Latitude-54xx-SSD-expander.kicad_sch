@@ -9626,7 +9626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4mm_Pad"
 			(at 243.84 72.39 0)
 			(effects
 				(font
@@ -9967,7 +9967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4mm_Pad"
 			(at 367.03 72.39 0)
 			(effects
 				(font
