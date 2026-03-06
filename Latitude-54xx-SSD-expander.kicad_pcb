@@ -689,7 +689,7 @@
 		(path "/caf73d07-2d85-4495-a7a4-b66b24a73158")
 		(sheetname "/")
 		(sheetfile "Latitude-54xx-SSD-expander.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start -10.95 1.05)
 			(end -10.949999 -2.95)
@@ -2330,7 +2330,7 @@
 		(path "/0a18c2aa-f874-465a-bc11-8fbd34cd1915")
 		(sheetname "/")
 		(sheetfile "Latitude-54xx-SSD-expander.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.25 0)
@@ -2397,7 +2397,7 @@
 		(property "Reference" "J4"
 			(at -2.9 -3.1 90)
 			(layer "F.SilkS")
-			(uuid "5f207e57-b6a4-4062-a161-154c8e465888")
+			(uuid "1f48768b-f7e2-4636-9ba0-39ce6f11d8be")
 			(effects
 				(font
 					(size 1 1)
@@ -2408,7 +2408,7 @@
 		(property "Value" "qwiic"
 			(at 0 3.98 0)
 			(layer "F.Fab")
-			(uuid "61f50cb1-c445-439a-84ea-8cd4f22a1a56")
+			(uuid "27c73657-d603-4371-b448-9863a4aa4a29")
 			(effects
 				(font
 					(size 1 1)
@@ -2421,7 +2421,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3b382b8-fc23-468b-bd38-ad909d869544")
+			(uuid "cde3c048-00a1-462c-a134-41afd574216a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5067f97-3135-4376-b270-c948c3148ba2")
+			(uuid "17e63ff2-8a9e-4eaa-bb0b-2cbcdec9f95a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3694,7 @@
 		(path "/2a2ac591-8acb-48a8-a880-e26c47a75034")
 		(sheetname "/")
 		(sheetfile "Latitude-54xx-SSD-expander.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.25 0)
@@ -5297,7 +5297,7 @@
 		(property "Reference" "J5"
 			(at -2.900001 -3.100001 90)
 			(layer "F.SilkS")
-			(uuid "b37d69e2-5014-4ba3-a24e-41de3e7f2ff4")
+			(uuid "b99b3a40-b18e-48f8-9da8-465d724798b6")
 			(effects
 				(font
 					(size 1 1)
@@ -5308,7 +5308,7 @@
 		(property "Value" "refqwock"
 			(at 0 3.98 0)
 			(layer "F.Fab")
-			(uuid "45aa361c-64a0-4a70-afe1-3899caf87a40")
+			(uuid "f7b1cc41-238f-4726-a2ad-1e73880428aa")
 			(effects
 				(font
 					(size 1 1)
@@ -5320,7 +5320,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04445258-0282-429c-b9b1-44fe094f0e4a")
+			(uuid "a3143786-b7ce-47ab-afa7-e147fc6bcf93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5332,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1a4d890-c967-46ff-9c1f-e99fb08eb4ea")
+			(uuid "876dc178-9be6-4481-80f4-ea8d4a255324")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8083,7 @@
 		(path "/587b8f60-07c7-4f6e-bc58-88761d55b20c")
 		(sheetname "/")
 		(sheetfile "Latitude-54xx-SSD-expander.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start -10.95 1.05)
 			(end -10.949999 -2.95)
@@ -12918,7 +12918,7 @@
 		(uuid "09baec43-feab-43c7-9d61-f3c4dace7526")
 	)
 	(via
-		(at 80 91)
+		(at 79.85 91)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -12990,7 +12990,7 @@
 		(uuid "1131ed9b-274b-4e3d-b595-45a129ca8427")
 	)
 	(via
-		(at 80 93)
+		(at 79.85 93)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -13475,7 +13475,7 @@
 		(uuid "5793d119-5a96-4c7d-8faf-6213de272a83")
 	)
 	(via
-		(at 80 75)
+		(at 79.85 75)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
